@@ -1,6 +1,22 @@
-# PSO
-Particle swarm optimization
+# PSO.jl
+Particle swarm optimization written in julia.
 
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://bingining.github.io/PSO.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://bingining.github.io/PSO.jl/dev)
+
+PSO.jl is the julia implementation of Particle swarm optimization algorithm.
+
+## Installation
+
+```julia
+julia> using Pkg;
+julia> Pkg.add(PackageSpec(url="https://github.com/bingining/PSO.jl.git"))
+```
+
+
+## Usage
+
+Tutorials can be found at [examples](https://github.com/bingining/PSO.jl/tree/master/examples).
 
 # PSO dynamical equations
 * velocity update
